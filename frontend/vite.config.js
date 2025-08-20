@@ -7,9 +7,6 @@ export default defineConfig({
   preview: {
     allowedHosts: ['frontend-1i7p.onrender.com']
   },
-  preview: {
-    allowedHosts: ['frontend-1i7p.onrender.com']
-  },
   server: {
     proxy: {
       '/api': {
